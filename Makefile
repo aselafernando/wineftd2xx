@@ -17,7 +17,7 @@ BITS = 32
 endif
 
 ifeq (x86_64,$(ARCH))
-BTS = 64
+BITS = 64
 endif
 
 WINELIBDIR := $(shell ./winelibdir $(ARCH))
